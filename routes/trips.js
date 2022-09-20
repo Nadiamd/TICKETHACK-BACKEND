@@ -1,7 +1,10 @@
+var express = require("express")
+var router = express.Router(); 
 //const fetch = require('node-fetch');
 const Trip = require('../models/trips');
 
-const OWM_API_KEY = 'ce7418650c86eae6629dfcfdda141c14';
+
+//const OWM_API_KEY = 'ce7418650c86eae6629dfcfdda141c14';
 
 // router.post('/', (req, res) => {
 //   // Check if the city has not already been added
